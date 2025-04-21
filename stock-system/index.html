@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📦 Stock Maintenance System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>📦 Stock Maintenance System</h2>
+
+  <form id="productForm">
+    <input type="text" name="name" placeholder="📝 Product Name" required />
+    <input type="text" name="category" placeholder="📂 Category" />
+    <input type="number" name="price" placeholder="💰 Price" step="0.01" required />
+    <input type="number" name="quantity" placeholder="🔢 Quantity" required />
+    <input type="number" name="threshold" placeholder="⚠️ Low Stock Limit" required />
+    <button type="submit">➕ Add Product</button>
+  </form>
+
+  <h3>📋 Product List</h3>
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>🆔 ID</th>
+        <th>📦 Name</th>
+        <th>📂 Category</th>
+        <th>💰 Price</th>
+        <th>🔢 Quantity</th>
+        <th>⚙️ Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
