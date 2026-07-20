@@ -21,13 +21,13 @@ A simple PHP + MySQL stock management web app that lets you add products, view t
 You can download the project as a ZIP file or clone it with Git:
 
 ```bash
-git clone <your-repository-url>
+https://github.com/nithisa004/Stock-Maintenance-System.git
 ```
 
 Place the project folder inside your XAMPP htdocs directory:
 
 ```text
-C:\xampp\htdocs\stock-system
+C:\xampp\htdocs\Stock-Maintenance-System
 ```
 
 ### 2. Start XAMPP services
@@ -42,10 +42,10 @@ Open phpMyAdmin in your browser:
 http://localhost/phpmyadmin
 ```
 
-Create a database named `stock_system` and then run this SQL:
+Create a database named `Stock-Maintenance-System` and then run this SQL:
 
 ```sql
-CREATE DATABASE stock_system;
+CREATE DATABASE Stock-Maintenance-System;
 
 USE stock_system;
 
